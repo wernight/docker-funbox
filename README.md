@@ -30,6 +30,18 @@ Featuring
       * `fortune` - Random fortune cookie message
 
 
+### Examples
+
+
+    $ docker run --rm -it wernight/funbox nyancat
+
+    $ docker run --rm -it wernight/funbox asciiquarium
+
+    $ docker run --rm -it wernight/funbox sh -c "figlet funbox | boxes | toilet --gay -f term"
+
+    $ docker run --rm -it wernight/funbox watch -t -n1 "date '+%D%n%T' | figlet -k | boxes -a c -s 59 -d cat"
+
+
 See also
 --------
 

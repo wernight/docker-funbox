@@ -38,8 +38,6 @@ RUN cp asciiquarium_1.1/asciiquarium /usr/local/bin
 RUN chmod 0755 /usr/local/bin/asciiquarium
 RUN rm -rf asciiquarium_1.1 asciiquarium.tar.gz
 
-# TODO: Install more stuff from http://mewbies.com/acute_terminal_fun_02_view_ascii_art_ansi_art_and_movies_on_the_terminal.htm
-
 RUN useradd --uid 666 -m --shell /usr/sbin/nologin john
 USER john
 

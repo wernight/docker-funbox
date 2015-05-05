@@ -8,15 +8,16 @@ RUN apt-get update && \
     bb \
     binclock \
     boxes \
+    caca-utils \
     cmatrix \
     cowsay \
     figlet \
     fortune \
+    imagemagick \
     libaa-bin \
     libcurses-perl \
     linuxlogo \
     make \
-    metapixel \
     nyancat \
     perl \
     rig \
@@ -28,7 +29,7 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 # Note: libaa-bin is aafire
 # Note: perl, libcurses-perl, wget, and make are used to run asciiquarium.
-# Note: watch is just usefull for so many of those comands.
+# Note: watch and imagemagick are just usefull for so many of those comands.
 
 # Install asciiquarium
 RUN cpan -i Term::Animation
@@ -44,5 +45,6 @@ USER john
 # Include /usr/games in PATH
 ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
 
-# TODO: Make a menu or show a least a list with a short description.
-CMD echo "Fun Commands: aafire asciiquarium aview bb binclock boxes cmatrix cowsay figlet fortune linuxlogo metapixel nyancat rig sl toilet"
+ADD media/blob-beroux.png /media/blob-beroux.png
+ADD menu.sh /
+CMD /menu.sh

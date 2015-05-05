@@ -58,7 +58,7 @@ do
     '16') exec boxes 'wernight/funbox';;
     '17') exec binclock;;
     '18') exec linuxlogo;;
-    '19') curl -Ls http://mewbies.com/asciiart/{01..04}.txt | lolcat -a -d 1 -F 0.09;;
+    '19') exec cat /media/{01..04}.txt | lolcat -a -d 1 -F 0.09;;
     '20') exec fig;;
     '21') exec fortune;;
     'q') echo "quiting!";;

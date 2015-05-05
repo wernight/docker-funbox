@@ -1,0 +1,145 @@
+
+   ____________________________________________________________________     
+  /\                                                                   \   
+  \_|        /\          /\          /\          /\          /\        |   
+    |     /\//\\/\    /\//\\/\    /\//\\/\    /\//\\/\    /\//\\/\     |   
+    |  /\//\\\///\\/\//\\\///\\/\//\\\///\\/\//\\\///\\/\//\\\///\\/\  |   
+    | //\\\//\/\\///\\\//\/\\///\\\//\/\\///\\\//\/\\///\\\//\/\\///\\ |   
+    | \\//\/          ,                                         \/\\// |   
+    |  \/         /\^/`\                                           \/  |   
+    |  /\        | \/   |    ________________                      /\  |   
+    | //\\       | |    |   ( mewbies.com    )          jgs       //\\ |   
+    | \\//       \ \    /   ( examples of    )        _ _         \\// |   
+    |  \/         '\\//'    ( boxes command  )      _{ ' }_        \/  |   
+    |  /\           ||      ( line for linux )     { `.!.` }       /\  |   
+    | //\\          ||       ----------------      ',_/Y\_,'      //\\ |   
+    | \\//          ||  ,          o   ,__,          {_,_}        \\// |   
+    |  \/       |\  ||  |\          o  (O~)____        |           \/  |   
+    |  /\       | | ||  | |            (__)    )\    (\|  /)       /\  |   
+    | //\\      | | || / /              U||--|| *     \| //       //\\ |   
+    | \\//       \ \||/ /                              |//        \\// |   
+    |  \/         `\\//`   \   \./    \\   \./    \ \\ |/ /        \/  |   
+    |  /\        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^       /\  |   
+    | //\\/\                                                    /\//\\ |   
+    | \\///\\/\//\\\///\\/\//\\\///\\/\//\\\///\\/\//\\\///\\/\//\\\// |   
+    |  \/\\///\\\//\/\\///\\\//\/\\///\\\//\/\\///\\\//\/\\///\\\//\/  |   
+    |     \/\\//\/    \/\\//\/    \/\\//\/    \/\\//\/    \/\\//\/     |   
+    |        \/          \/          \/          \/          \/        |   
+    |   _______________________________________________________________|_  
+     \_/_________________________________________________________________/ 
+
+
+
+                                _p`                  _..
+                              :gQL/                  jmm
+                              jQQkf.                jmQma
+                             QmQQm(  .             .mQQQw,
+                            _mQQQW[,-             .wQQQQQp,
+                           gmQQQQQk[             _wWQQQQQkr:
+                          jQQQQQQQkp            _]WQQQQQQQLc
+                        _qmQQQQQQQW[           _]mQQQQQQQWmc
+                        jmQQQQQQQQQ6gwawwawaaggjmQQQQQQQQQQm.
+                       wQWQQQQQQQQQQQQWWWWQQQQQQQQQQQQQQQQQQs
+                     :gQQWQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQWQQQQc
+                     qQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQWQQQQQW[/
+                   _]mQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQmc,
+                  .jQQQQQQQQQ@P?"3#PTWWQQQQQQQWY?4T?4$QQQQQQQQmc
+                 _mQQQQQQQQQB'   ]#[ TQQQQQQQW" ]3o  )]QQQQQQQWm.
+                _QQQQQQQQQQ?^    ]M' |3QQQQQW+  ]]*    !WQQQQQQQu.
+               _jWQQQQQQQWf   ____,,  ]$QQQWE    _._   ."WWQQQQQQa
+               jdQQQQQQQB[`_aymQQQQma.]3QQQB[ _wymmmwap_ ]$QQQQQQQ,
+               ]QQQQQQQW(qwQQQQQQQQWWQp]$QQC6gQWWQQQQWQma/]$QQWQQWf
+               ]QQQWQWQBmQQQQQQQQQQQQQQpmQQqmQQQQQQQQQQQQmaJQQQQQQfX
+               ]WWmmmmmBWQQQQQQQQQQQQQWQQQQQWQQQQQQQQQQQQQQQWWWWWQ[
+               ]3QQWQWmBWWWQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQWmBmmmmmW`
+               -]QQQQQWQWQWQQQQQQQQQQQQQQQWQQQQQQQQQQQQQQQWQWWQWWN
+                -HQQQWQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQWQWWQWWWMX
+                 ^YQQQQQQQQQQQQQQW$QQQQQQQQQQQQQQQQQQQWQQQQQQQWF
+                  |4QWQQQQQQQQQQmnpdQQQQQQQQQQQQQWQQWQQQQQQQQD('
+                   -]?HWQQQQQQWW#$QpVQQQQWQQQQQQQQQQQQQQQQWD?`   -
+                       ~9HUVSXXqqQBGmQQQQQQQQQQWQQQQQQQQW!^'
+                        jjqQWQQQWSSqQWQQQQQQQQQQQQQQWDY"^    _gag.
+                       .mQQQWDYMwmQQQQQQQQQQQQQQQQQX``    _qgQQQQm,
+                       QQQQQQ(_mQQQQQQQQQQQQQQWQQQQWap,._vyQWWD!YWc
+                       }QQQQQQQWQQQQQQQQQQQWQQQQQQQQQQQmQWWWQ('  "`
+                        ]WQQQWWQQQQQQQQQQQQQQQQQQQQQQQQQQQQW"+
+                         ))HQQQQQQQQQQQQWQQQQQQQQQQQQWQWWT!'
+                          .mQQQQQQQQQQQQQQQQQQQQQQQQQfr"^
+                         <jQQQQQQQQQQQWQQQQQQQQQQQWQWkf
+                        .jQQQQQQQQQQQQQQQQQQQQWQQQQQQm[
+                        jmQWQQQQQQQQQWQQQQQQQQQQQQQQQQL              i_., :
+                       ZdQQQQQQQQQQQQQQQQQQQQQQQQQQQQQk          ZgwymmQmQgwc,
+                       gQQQQQQQQQQQQQQQQQQQQQWQQQQQQQQm+       .amQQWQQQQQQWQQgg,
+                      aQQQQQQQQQQQQQWQQQQQQQQQQQQQQQWQQZ     qmQQQY^^|    =]4$Yi
+                     -uQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQv    aQQW?"         - - +
+                     _QQQQQQQQQQQQQQQQQQQQQQWQQQQQQQQQQXX:jjQWP^                =
+                     )QQQQQQQQQQQQQQQQQQQQQQQQQQQQQWQQQ#gyQWQ(`
+                     jQQQQQQQQQQQQQQQQQQQWQQQQQQQQQQQQQQQQQB"
+                    =jQQQQQQQQQQQQQQQWQQQQQQQQQQQQQQQQQQQQE(
+                    =jQQQQQQQQQQQQQQQQQQQQQQQQQQQQWQQQQQQf`
+                     jQQQQQQQQQQQQQQQQQQQQQQQQQWQQQQQQQQ#'
+                     )QQQQQQQQQQQQQQQQQQQWQQQQQQQQQQQQQQQ(
+                      WQQQQQQWBVT???!!!??TYTHWQQQQQQQQQQQf
+                     |1QQQQH!'               -""?9QQQQQQQL`
+                      |WQWF                     II""$WWQQ[=
+                      vM@['                          ]?QQf/
+					  
+
+
+   ":_,  ;j22a2gg2zaazaj::2jjjjj22aggQN@@:@N@N@@@::{"\p' ,/2_",j\__';":'a:j;'
+   jN:7\_ 2:a2a2aggZQQQ@QQQNQ@QNZzaazZQZQgaQZQ@@@:"tZp;p'-(\,:2:2";:g2jzj:;:z
+   :Ng ;{&L,a:j2zQQ@@::@::@::::@:@:@N@:@@':::"".\.'\/c1,  :-}1j/"q>a,Qj::;.'g
+   __2}--7:QQ_Ng.;@@:::::::j:::""::::j;j_u:y2:ypq5zp-j' :q'qjt";::@@NZ2::.':2
+   2j:2:.;q:"d\_\"j\\_222.Q:cau2:2za:QQqS:L\b\\a!fQ7. 7 ,7#;{\:@,_,\_\g:.:;;Z
+   jjCj2jur"j"4V:;2jaju9K$MA@Q$M$sY=";q\_QqC"}_l#}q/j7     q4_7"$j\j;c,,:'.._
+   az2jjjj{j;r{0jZ;-":::\;r}.:& ;_:2q.@Q\-C,}q'Q71.q.'(,7,,.Lq;n-Y-*=-{:  ;{:
+   QQuca{"jjj"::iC;,j/:ji'a.J/:{(_.(yp,q'\77\''.\,C!qqi_/1>_=R!J-;' gZ ,j   "
+   pQ$Qzgnajjp:2"7.:;:!"j"__d'.._$_1i"!_,(7,;/,,-,,QyY@/p;ye,(_g'j.:;:")jg2  
+   Q$pNQ:Q:z\\j2(-o p7;.  !2-..qnp_<.  q-.]/RL\{_7rq,"@"FKQQ.z_.{\._;q#:;}  7
+   Q:HCQcg:oQ::@i',#,!(...bp"\\.\!1J!' {.\(/'\\\('y@-Z 2,{l#&{Cryaaziq_b/_ :;
+   QjjQ2\pjQj@j1,/Lr5).{\Q!./!q{\bt(  \@<q\{(q.@j!!y\(J'L{::Jy/'($2cpQ@Q:LgZg
+   jjju22zza@@Qqf/d#!'q}rI.:_{q[?;:`,J1@__1\)qp{,L\{\J./.q2p1"(L:.@ZrApJT\2z'
+   @2aac2rMb/Qyjzyc$ {1a}:l;}<1nkk\/Qy1/{{/r};tJ.;{b\q/yL52Qk:}LQ}Z!Jqb7\Cq'7
+   jzzzj2L\C232{L{Li {rvB'q{g?jq1Q\;.l'.C //wd7'-,(.qq.\.LQyL!ig;GC/Cpd._..4_
+   jzua\j\zap\I}zpg2 (\()q@;%4'4_U/ljy dqr@:!j j,.qq:@djQzjL%Lp!u/(!'\,pJbq2p
+   Q2j@Q\gy2UQq.{yxg)11`  .9)7_Lgpzxa; 11jb}'(qL$q.pjdp3_i%b}q\Eqj/u;Jpd/q7dC
+   :KQz22;`_z]Qpd1g\{.q;\ !CdjJ29zCn\;'p\$f_d1b32{@1&yQqbqz\@z%z;\1;@/l__ -aj
+   QQjup\j;jCc$!cQpy/bT__.l1{TG\]1Q{tL_Qji.\%.7=`--&QaU1v@a\a:rZ\_g};J(;=/J-(
+   :jsr:\r'oJ{t!+caAp!}`$_(_"\/2(yq1L@d@QT-    ;jq.,g (yQ{cbAB{M!r;\:jq7({ T(
+   Qjj$\a9J}.$y@qc".J.L/._.23JQ\{qdqC\jp'  jj _,7?c\:\ qqpI.9('"-z+'<cQ2--z_.
+   uzzL2j>' ('("LKQj'Z;p:_,1.1q'1pd:u2p) .:;\j   {LpQ\l:1$\"._,.,2 :, /A_/(.,
+   z2\2$j} .,j   j7@p:,,<{rj':{.{yjzzg}   ::S\   {p@2p'1ziy\jrC\.;!$'  g-N.p{
+   $j$:c\$.P:/ ( "_1@\L7eJ/",,@Q1{ggQa`; ;7@Q$Q._q22F\gC\g"-\Q{L.7^Qo  : ;; /
+   5!q7:j}.)2'   {jnqjj2_!kYQQQ3p1QQQrq,  .-<za22u#+_Qn"=Q@C/p?rJj@2L_pl'   .
+   ;_:1QQi;{rjp:.j:a}aj}dq4__j2u2xQ$rf::;..,_ qq__1C@547C,'dk(;:2@J$q2Y$__._,
+   QMj2$Qj, "g2a:ar" jQ2uQa/g2agZgCo$ 7(qq{zgg2ayT77`5L,')=_2@_@\;Q2r-4}qP/tj
+   @p\2Qrjj_.z"-- . /{g\1zgggQzgz\jb} ,:/1jag><Q\S 77q ("+Jb_1`j!Q$'__jqc\Q, 
+   S$CQ.,.>T#q\__._p jzzpgQggzx2z@$Q:;-{,i;pq), tQ..,_.. ..2P(-${g;_Q_1\j$=T(
+   "c$;\.}-(-7%2z1$}q2Qgggagzar$$$bBq___yJq{tS' .,-q:.--y" q2,.1%1}__1`RvA 7!
+   2{@,!jq)/\qFAT@Q\.jgz2zzaaOrp:ujL.@2@Kr21\2BB; {$_#=>,'\.#O2aF%iaz(     -:
+   Qd@pdI-\ #  , _{qCgz2u\u2c2jCQ:bu$@@2c@jOy22Qjq:.;\;7\# #-{`q('..p (A2,_:7
+   @QQp2_:pj,  ./(;y{2a@2Q/pA@$Ly7\JjjQ2j{T-q2c\(Pr{./+"nq2_.Q1p-!t.#;j-a z' 
+   @Q@QQ_y_ 7#::dYQt1?7=7"!":jc::q_2aQr9*@==Hz\_z/q_\@$1djyG5.\.:{\.,zj ::;;:
+   @$QQQrP'_q{l12$aQ?L:.j"""7 . .zz2j2\q1_\2u22&kQQx2qp\QpMjz:Qur\""--#;. : j
+   $jQ\_\__q4@$r11g$;,j #{:q:; {j2ca2Tp .&.___\_zj\(%g@QQQ:.Q\1j;::,:z:;;:;7"
+   azz2$qd\;jQqoQQIpjZ:__7722  1jj2j\:::dS-V-<""<@z2gQn3ug\\G:\\::,z; -::;ja;
+   jjozgQ$QQ\_pQztqx\C@\jp\,  Z:@QBQ@&S_\c::Qj__Q\qgtg25C2:ov&L\_:}7'#'_/'. j
+   \@@Q@j@QQ2"qz2:aGu::A@@pj.,:N\ra2Q:pQKe"2\;(_;"d*1pqS\zJ$zQ;;(%q]_pj' .j.,
+   j@@jz2$jjj?3?j@rjj@C1\p:j=-j #:"j1a"L\c/\7q<q(q,V;;4tgrgzL1)\QQy:v!gT_yjN#
+   @@@jj22jjQQ;?a:Zz2"je@tjc2j:p.__,Q:7;2:(,j 7tJ!/t_d$yQ\&\gOCQAI_;@_:J=\y\_
+   jjjjj2jjjj\j$1$p2j""::""000@QQgaj$a:.  . :   -\ !;5\j1QQrqv\_(*zzI_:->'-"_
+   @@jjj2u22222jr2:b:":"::::N@zaZ2j::g2z.:2j      T,jvjJzzQ$q1,_<C_/>{y%_;{_:
+   jj2j22222a2uj2c:yru{\:::@:@:@@::j:N@   :        1p$@O\j%zq72y;j %<Q_rq1Tq;
+   jj22222222c2j222\_2@"-q;"::_:\:77#'           '{qjjj@$"_:d.).t":;\#4C@)2Qq
+   jj22222a22u2222j$2a\:___1aQ_;,         ' '.: _.:Q@@jK@A\".:7'_;#Q7#a7:/"78
+   jjj22222uua22jj\j@j@j22azga2_.p2   z qpq;{_Q\:Qj@@Mn":$j::=.jQ<L,jZ'aj#a j
+   jjjj2j22222jjjjj$@jpQQ$Q2\uzz\jLI__1:L\1\oQ$@Q$s0}- @7:::#,j-!,a;R.,  :Q27
+   @jjjj2j2jjjjj@@@@@$AQjj;@n:zagz2\p:nQ:Qz:2qpsr"@,@,zz. .:2#pZ@7".;77*.,: :
+   @j@jjjjjjjjj@@j@AQ:QQ@21g"cZAc222j$jQQ$QQp:3{.,jz7'qqg2 :;jQ.:;'; j:..:=._
+   @@@@j@j@@@@@@@@$QQQQQ:\aj2\;o()l)ol5K}=o{:Q#a @' j:jqqz  .; 2: g:.:.:g'q;z
+   Q$@@@@$$Q@Q@$@@@Qzzuuajjjj::@NQj7:}:,;j:az:;j2;':'2'gz    ;jz::j' .:...'ga
+   QQQQQQQQQQ@Q$@@Q:z2o\j\:::g;a7jj :;jj..  : ' .. ':j2'.'. '      ' .: z:;  
+   :Q:QQQ::QQ$$$Q$@:aj:j"::::j'';  ;  ';      ;.  ' :''';j;;g;  :   :,7NNa  :
+   ::::gzgzgQQQQQQNQzjj@ZN:':2Z j j: j.  '          ' :2zjj   ' ;    2z 7'   
+   zzzzzzaag::QQQQQQg2:::Qjg:$az.               .     ;'j.2.':: ':'    z  :'j
+

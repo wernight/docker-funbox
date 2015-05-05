@@ -27,15 +27,16 @@ RUN apt-get update && \
     vlc \
     watch \
     xaos
+
+# Install lolcat and youtube-dl
+RUN echo "deb http://http.us.debian.org/debian sid main non-free contrib" >> /etc/apt/sources.list
+RUN apt-get update && \
+    DEBIAN_FRONTEND=noninteractive apt-get install -y lolcat youtube-dl
+
 # Notes:
 # - libaa-bin is aafire
 # - perl, libcurses-perl and make are used to run asciiquarium for example.
-# - curl, watch, imagemagick and vlc are just useful for so many of those commands.
-
-# Install lolcat
-RUN echo "deb http://http.us.debian.org/debian sid main non-free contrib" >> /etc/apt/sources.list
-RUN apt-get update && \
-    DEBIAN_FRONTEND=noninteractive apt-get install -y lolcat
+# - curl, watch, imagemagick, vlc and youtube-dl are just useful for so many of those commands.
 
 # Install asciiquarium
 RUN cpan -i Term::Animation
@@ -64,6 +65,9 @@ ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
 
 # We support 256color, right? If not, you can always change this environment variable.
 ENV TERM=xterm-256color
+
+# youtube alias
+ADD .bash_aliases /home/john/.bash_aliases
 
 ADD examples /examples
 ADD menu.sh /

@@ -31,7 +31,7 @@ Featuring
           * `linuxlogo` - Standard linux logos
           * `lolcat` - Colorful `cat`
   * Random text generator:
-      * `fig` - Kind of person ID
+      * `rig` - Kind of person ID
       * `fortune` - Random fortune cookie message
 
 

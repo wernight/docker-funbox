@@ -53,12 +53,12 @@ do
     '11') exec crowsay 'wernight/funbox';;
     '12') exec figlet 'wernight/funbox';;
     '13') exec toilet 'wernight/funbox';;
-    '14') convert /media/blob-beroux.png ~/blob-beroux.pgm && exec aview ~/blob-beroux.pgm;;
-    '15') exec cacaview media/blob-beroux.png;;
+    '14') convert /examples/blob-beroux.png ~/blob-beroux.pgm && exec aview ~/blob-beroux.pgm;;
+    '15') exec cacaview examples/blob-beroux.png;;
     '16') exec boxes 'wernight/funbox';;
     '17') exec binclock;;
     '18') exec linuxlogo;;
-    '19') exec cat /media/{01..04}.txt | lolcat -a -d 1 -F 0.09;;
+    '19') exec cat /examples/{01..04}.txt | lolcat -a -d 1 -F 0.09;;
     '20') exec fig;;
     '21') exec fortune;;
     'q') echo "quiting!";;

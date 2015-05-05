@@ -49,21 +49,23 @@ For security, all tools run as non-root user with uid `666`. So if you mount ima
 
     $ docker run --rm -it wernight/funbox nyancat
 
-![Screen-shot showing a nyancat in ASCII art](https://raw.githubusercontent.com/wernight/docker-funbox/master/media/nyancat.png)
+![Screen-shot showing a nyancat in ASCII art](https://raw.githubusercontent.com/wernight/docker-funbox/master/doc/nyancat.png)
 
     $ docker run --rm -it wernight/funbox asciiquarium
 
-![Screen-shot showing a sharq in an aquarium in ASCII art](https://raw.githubusercontent.com/wernight/docker-funbox/master/media/asciiquarium.png)
+![Screen-shot showing a sharq in an aquarium in ASCII art](https://raw.githubusercontent.com/wernight/docker-funbox/master/doc/asciiquarium.png)
 
     $ docker run --rm -it wernight/funbox sh -c "figlet funbox | boxes | toilet --gay -f term"
 
-![Screen-shot showing a the word funbox in large text using ASCII art](https://raw.githubusercontent.com/wernight/docker-funbox/master/media/funbox.png)
+![Screen-shot showing a the word funbox in large text using ASCII art](https://raw.githubusercontent.com/wernight/docker-funbox/master/doc/funbox.png)
 
-    $ docker run --rm -it wernight/funbox watch -t -n1 "date '+%D%n%T' | figlet -k | boxes -a c -s 59 -d cat"
+    $ docker run --rm -it wernight/funbox watch -ct -n1 "date '+%D%n%T' | figlet -k | boxes -a c -s 59 -d cat"
 
-![Screen-shot showing a the current date and time in a frame with a cat on top using ASCII art](https://raw.githubusercontent.com/wernight/docker-funbox/master/media/time-cat.png)
+![Screen-shot showing a the current date and time in a frame with a cat on top using ASCII art](https://raw.githubusercontent.com/wernight/docker-funbox/master/doc/time-cat.png)
 
-    $ docker run --rm -it wernight/funbox cvlc --no-audio -V caca /media/countdown.mp4
+    $ docker run --rm -it wernight/funbox cvlc --no-audio -V caca /examples/countdown.mp4
+
+![Screen-shot showing number 3 in 3-D using ASCII art](https://raw.githubusercontent.com/wernight/docker-funbox/master/doc/countdown-video.png)
 
 
 See also

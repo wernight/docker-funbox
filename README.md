@@ -63,6 +63,8 @@ For security, all tools run as non-root user with uid `666`. So if you mount ima
 
 ![Screen-shot showing a the current date and time in a frame with a cat on top using ASCII art](https://raw.githubusercontent.com/wernight/docker-funbox/master/media/time-cat.png)
 
+    $ docker run --rm -it wernight/funbox cvlc --no-audio -V caca /media/countdown.mp4
+
 
 See also
 --------

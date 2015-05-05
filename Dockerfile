@@ -62,6 +62,9 @@ USER john
 # Include /usr/games in PATH
 ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
 
+# We support 256color, right? If not, you can always change this environment variable.
+ENV TERM=xterm-256color
+
 ADD media/blob-beroux.png /media/blob-beroux.png
 ADD menu.sh /
 CMD /menu.sh

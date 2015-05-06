@@ -1,7 +1,5 @@
 #!/bin/sh
 
-. ~/.bash_aliases
-
 figlet wernight/funbox
 
 choice=""

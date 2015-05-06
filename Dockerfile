@@ -66,8 +66,8 @@ ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
 # We support 256color, right? If not, you can always change this environment variable.
 ENV TERM=xterm-256color
 
-# youtube alias
-ADD .bash_aliases /home/john/.bash_aliases
+# youtube helper script
+ADD youtube /usr/local/bin/youtube
 
 ADD examples /examples
 ADD menu.sh /

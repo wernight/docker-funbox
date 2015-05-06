@@ -1,0 +1,2 @@
+#!/bin/sh -ex
+exec cvlc -I dummy -V caca $(youtube-dl -g $*)

@@ -1,2 +1,2 @@
 #!/bin/sh -ex
-exec cvlc -I dummy -V caca $(youtube-dl -g $*)
+exec cvlc --play-and-exit -I dummy -V caca $(youtube-dl -g $*) vlc://quit

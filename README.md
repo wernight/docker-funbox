@@ -67,7 +67,7 @@ For security, all tools run as non-root user with uid `666`. So if you mount ima
 
 ![Screen-shot showing number 3 in 3-D using ASCII art](https://raw.githubusercontent.com/wernight/docker-funbox/master/doc/countdown-video.png)
 
-You can also watch YouTube videos from the console thanks to the `youtube` alias (using `youtube-dl`, `vlc` and `caca-utils`):
+You can also watch YouTube videos from the console thanks to the `youtube` alias (using `youtube-dl`, `vlc` and `caca-utils`) then use [cvlc keyboard shortcuts](https://openclipart.org/download/171818/keyboard-mappings-cvlc.svg):
 
     $ docker run --rm -it wernight/funbox youtube 'https://www.youtube.com/watch?v=_7vkRTylYoA'
 

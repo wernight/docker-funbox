@@ -46,7 +46,7 @@ case $choice in
   '5') falling-hearts;;
   '6') nyancat;;
   '7') pipes;;
-  '8') xaos;;
+  '8') xaos -autopilot;;
   '9') bb;;
   '10') sl;;
   '11') youtube 'https://www.youtube.com/watch?v=_7vkRTylYoA';;
@@ -57,9 +57,9 @@ case $choice in
   '16') cacaview examples/blob-beroux.png;;
   '17') fortune | boxes -d parchment;;
   '18') binclock;;
-  '19') linuxlogo;;
+  '19') linuxlogo -L random_xy;;
   '20') cat /examples/0?.txt | lolcat -a -d 1 -F 0.09;;
   '21') rig;;
-  '22') fortune;;
+  '22') fortune riddles;;
   *) echo "Invalid menu number!!! Leaving now.";;
 esac

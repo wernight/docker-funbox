@@ -6,38 +6,69 @@ Docker Funbox
 Featuring
 ---------
 
-  * Screensavers / inifite animations:
-      * `aafire` - Fire pit
-      * `asciiquarium` - Aquarium
-      * `cacademo` - caca-utils demo.
-      * `cmatrix` - Matrix
-      * `falling-hearts` - Falling Hearts screensaver
-      * `nyancat` - Nyan cat
-      * `pipes` - Pipes screensaver
-      * `xaos` - real-time interactive fractal zoomer
-  * Demos / short animations:
-      * `bb` - ASCII art demo
-      * `sl` - Train passing by
-  * Static ASCII art:
-      * Text`formatting:
-          * `cowsay` - Talking cow (or actually many others, run with `-l` to get a list and via `-f <name>` to use one)
-          * `figlet` - ASCII large text print
-          * `toilet` - ASCII large text print
-      * Other:
-          * `aview` - Convert image to ASCII art
-          * `cacaview` - Convert image to ASCII art
-          * `boxes` - Put various frames around given block of ASCII art.
-          * `binclock` - Current time in binary.
-          * `linuxlogo` - Standard linux logos
-          * `lolcat` - Colorful `cat`
-  * Random text generator:
-      * `rig` - Kind of person ID
-      * `fortune` - Random fortune cookie message
+In alphabetic order:
+
+  * [AA-lib](http://aa-project.sourceforge.net/aalib/)
+  * [ASCIIQuarium](http://robobunny.com/projects/asciiquarium/html/)
+  * [BB](http://aa-project.sourceforge.net/bb/)
+  * [BinClock](http://www.ngolde.de/binclock.html)
+  * [boxes](http://boxes.thomasjensen.com/)
+  * [CMatrix](http://www.asty.org/cmatrix/)
+  * [cowsay](https://en.wikipedia.org/wiki/Cowsay)
+  * [falling-<3s.sh](http://blog.yjl.im/2011/02/time-to-have-falling-hearts-screensaver.html)
+  * [FIGlet](https://en.wikipedia.org/wiki/FIGlet)
+  * [fortune](https://en.wikipedia.org/wiki/Fortune_%28Unix%29)
+  * [ImageMagick](http://www.imagemagick.org/)
+  * [libcaca](http://caca.zoy.org/wiki/libcaca)
+  * [Linux_Logo](http://www.deater.net/weave/vmwprod/linux_logo/)
+  * [lolcat](https://github.com/busyloop/lolcat)
+  * [nyancat](http://nyancat.dakko.us/)
+  * [pipes](https://gist.github.com/livibetter/4689307)
+  * [RIG - Random identity generator](http://rig.sourceforge.net/)
+  * `sl` (not to be confused with `ls`)
+  * [TOIlet](http://caca.zoy.org/wiki/toilet)
+  * [VLC](https://www.videolan.org/vlc/)
+  * [XaoS](https://en.wikipedia.org/wiki/XaoS)
 
 
 ### Basic usage
 
     $ docker run --rm -it wernight/funbox
+                             _       _     _      ____             _
+    __      _____ _ __ _ __ (_) __ _| |__ | |_   / / _|_   _ _ __ | |__   _____  __
+    \ \ /\ / / _ \ '__| '_ \| |/ _` | '_ \| __| / / |_| | | | '_ \| '_ \ / _ \ \/ /
+     \ V  V /  __/ |  | | | | | (_| | | | | |_ / /|  _| |_| | | | | |_) | (_) >  <
+      \_/\_/ \___|_|  |_| |_|_|\__, |_| |_|\__/_/ |_|  \__,_|_| |_|_.__/ \___/_/\_\
+                               |___/
+
+    Screensavers / inifite animations:
+      1) `aafire` - Fire pit
+      2) `asciiquarium` - Aquarium
+      3) `cacademo` - caca-utils demo
+      4) `cmatrix` - Matrix
+      5) `falling-hearts` - Falling Hearts screensaver
+      6) `nyancat` - Nyan cat
+      7) `pipes` - Pipes screensaver
+      8) `xaos` - real-time interactive fractal zoomer
+    Demos / short animations:
+      9) `bb` - ASCII art demo
+     10) `sl` - Train passing by
+     11) `youtube` - Alias to watch YouTube video using `youtube-dl`, `vlc` and `caca`
+    Static ASCII art:
+      * Text`formatting:
+         12) `cowsay` - Talking cow (or actually many others, run with `-l` to get a list and via `-f <name>` to use one)
+         13) `figlet` - ASCII large text print
+         14) `toilet` - ASCII large text print
+      * Other:
+         15) `aview` - Convert image to ASCII art
+         16) `cacaview` - Convert image to ASCII art
+         17) `boxes` - Put various frames around given block of ASCII art.
+         18) `binclock` - Current time in binary.
+         19) `linuxlogo` - Standard linux logos
+         20) `lolcat` - Colorful `cat`
+    Random text generator:
+     21) `rig` - Kind of person ID
+     22) `fortune` - Random fortune cookie message
 
 For security, all tools run as non-root user with uid `666`. So if you mount images or media, first make sure that their are accessible by everyone or uid/gid `666` to them:
 

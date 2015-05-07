@@ -70,11 +70,6 @@ In alphabetic order:
      21) `rig` - Kind of person ID
      22) `fortune` - Random fortune cookie message
 
-For security, all tools run as non-root user with uid `666`. So if you mount images or media, first make sure that their are accessible by everyone or uid/gid `666` to them:
-
-    $ chown 666 my-image.png
-    $ docker run --rm -it -v $PWD/my-image.png:/my-image.png:ro wernight/funbox metapixel /my-image.png
-
 
 ### Some Examples
 
@@ -100,7 +95,21 @@ For security, all tools run as non-root user with uid `666`. So if you mount ima
 
 You can also watch YouTube videos from the console thanks to the `youtube` alias (using `youtube-dl`, `vlc` and `caca-utils`) then use [cvlc keyboard shortcuts](https://openclipart.org/download/171818/keyboard-mappings-cvlc.svg):
 
-    $ docker run --rm -it wernight/funbox youtube 'https://www.youtube.com/watch?v=_7vkRTylYoA'
+    $ docker run --rm -it wernight/funbox youtube 'https://www.youtube.com/watch?v=bMljuVqqmVU'
+
+
+### Security and mounting volumes
+
+For security, all tools run as non-root user with uid `666`. So to access mounted volumes (images or media) do one of the following from within your Docker host:
+
+  * Make them readable by everyone `chmod o+rx`
+  * make them readable by uid/gid `666`
+  * Run as another user: `docker run --rm -it --user $UID wernight/funbox ...`
+
+Example:
+
+    $ chown 666 my-image.png
+    $ docker run --rm -it -v $PWD/my-image.png:/my-image.png:ro wernight/funbox metapixel /my-image.png
 
 
 See also

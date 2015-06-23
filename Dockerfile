@@ -71,4 +71,5 @@ ADD youtube /usr/local/bin/youtube
 
 ADD examples /examples
 ADD menu.sh /
-CMD /menu.sh
+
+CMD ["/menu.sh"]

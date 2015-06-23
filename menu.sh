@@ -39,27 +39,27 @@ read -p 'Menu: ' choice
 
 set -x
 case $choice in
-  '1') aafire;;
-  '2') asciiquarium;;
-  '3') cacademo;;
-  '4') cmatrix;;
-  '5') falling-hearts;;
-  '6') nyancat;;
-  '7') pipes;;
-  '8') xaos -autopilot;;
-  '9') bb;;
-  '10') sl;;
-  '11') youtube 'https://www.youtube.com/watch?v=_7vkRTylYoA';;
-  '12') cowsay 'wernight/funbox';;
-  '13') figlet 'wernight/funbox';;
-  '14') toilet 'wernight/funbox';;
-  '15') convert /examples/blob-beroux.png ~/blob-beroux.pgm && aview ~/blob-beroux.pgm;;
-  '16') cacaview examples/blob-beroux.png;;
-  '17') fortune | boxes -d parchment;;
-  '18') binclock;;
-  '19') linuxlogo -L random_xy;;
-  '20') cat /examples/0?.txt | lolcat -a -d 1 -F 0.09;;
-  '21') rig;;
-  '22') fortune riddles;;
+  '1') exec aafire;;
+  '2') exec asciiquarium;;
+  '3') exec cacademo;;
+  '4') exec cmatrix;;
+  '5') exec falling-hearts;;
+  '6') exec nyancat;;
+  '7') exec pipes;;
+  '8') exec xaos -autopilot;;
+  '9') exec bb;;
+  '10') exec sl;;
+  '11') exec youtube 'https://www.youtube.com/watch?v=_7vkRTylYoA';;
+  '12') exec cowsay 'wernight/funbox';;
+  '13') exec figlet 'wernight/funbox';;
+  '14') exec toilet 'wernight/funbox';;
+  '15') convert /examples/blob-beroux.png ~/blob-beroux.pgm && exec aview ~/blob-beroux.pgm;;
+  '16') exec cacaview examples/blob-beroux.png;;
+  '17') fortune | exec boxes -d parchment;;
+  '18') exec binclock;;
+  '19') exec linuxlogo -L random_xy;;
+  '20') cat /examples/0?.txt | exec lolcat -a -d 1 -F 0.09;;
+  '21') exec rig;;
+  '22') exec fortune riddles;;
   *) echo "Invalid menu number!!! Leaving now.";;
 esac

@@ -2,9 +2,6 @@ FROM debian:jessie
 
 MAINTAINER Werner Beroux <werner@beroux.com>
 
-# Required to install lolcat and youtube-dl
-RUN echo "deb http://http.us.debian.org/debian sid main non-free contrib" >> /etc/apt/sources.list
-
 RUN apt-get update \
     && DEBIAN_FRONTEND=noninteractive apt-get install -y \
         aview \
@@ -21,7 +18,6 @@ RUN apt-get update \
         libaa-bin \
         libcurses-perl \
         linuxlogo \
-        lolcat \
         make \
         nyancat \
         perl \
@@ -31,6 +27,14 @@ RUN apt-get update \
         vlc \
         watch \
         xaos \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+
+# Install lolcat and youtube-dl
+RUN echo "deb http://http.us.debian.org/debian sid main non-free contrib" >> /etc/apt/sources.list
+RUN apt-get update \
+    && DEBIAN_FRONTEND=noninteractive apt-get install -y \
+        lolcat \
         youtube-dl \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*

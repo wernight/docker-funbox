@@ -3,8 +3,7 @@ Docker Funbox
 
 [Docker](https://docs.docker.com/installation/) container with fun geeky terminal commands and ASCII art.
 
-Featuring
----------
+### Featuring
 
 In alphabetic order:
 
@@ -31,7 +30,7 @@ In alphabetic order:
   * [XaoS](https://en.wikipedia.org/wiki/XaoS)
 
 
-### Basic usage
+#### Basic usage
 
     $ docker run --rm -it wernight/funbox
                              _       _     _      ____             _
@@ -71,7 +70,7 @@ In alphabetic order:
      22) `fortune` - Random fortune cookie message
 
 
-### Some Examples
+#### Some Examples
 
     $ docker run --rm -it wernight/funbox nyancat
 
@@ -98,7 +97,7 @@ You can also watch YouTube videos from the console thanks to the `youtube` alias
     $ docker run --rm -it wernight/funbox youtube 'https://www.youtube.com/watch?v=bMljuVqqmVU'
 
 
-### Security and mounting volumes
+#### Security and mounting volumes
 
 For security, all tools run as non-root user with uid `666`. So to access mounted volumes (images or media) do one of the following from within your Docker host:
 
@@ -112,8 +111,7 @@ Example:
     $ docker run --rm -it -v $PWD/my-image.png:/my-image.png:ro wernight/funbox metapixel /my-image.png
 
 
-See also
---------
+### See also
 
   * [20 amusing Linux commands to have fun with the terminal](http://www.binarytides.com/linux-fun-commands/)
   * [mewbies.com Fun On The Terminal - Index](http://mewbies.com/acute_terminal_fun_table_of_contents.htm)

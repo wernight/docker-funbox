@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:buster
 
 MAINTAINER Werner Beroux <werner@beroux.com>
 
@@ -25,6 +25,7 @@ RUN apt-get update \
         linuxlogo \
         make \
         nyancat \
+        libncurses6 \
         perl \
         rig \
         sl \
@@ -53,8 +54,10 @@ RUN apt-get update \
     && chmod +x /usr/local/bin/falling-hearts \
 
     && echo "Install pipes" \
-    && curl -L https://gist.githubusercontent.com/livibetter/4689307/raw/949e43fe2962c2c97c8b1d974ff93dd053d9bd37/pipes.sh -o /usr/local/bin/pipes \
-    && chmod +x /usr/local/bin/pipes \
+    && curl -L https://github.com/pipeseroni/pipes.sh/archive/v1.3.0.tar.gz -o pipes-v1.3.0.tar.gz \
+    && tar -zxvf pipes-v1.3.0.tar.gz \
+    && cd pipes.sh-1.3.0 && make install \
+    && ln -s /usr/local/bin/pipes.sh /usr/local/bin/pipes \
 
     && echo "Clean-up" \
     && apt-get clean \

@@ -27,5 +27,5 @@ jobs:
       - name: build the image
         run: |
           docker buildx build --push \
-            --tag "mhzawadi/phpipam:${{ steps.prepare.outputs.version }}" \
-            --platform linux/amd64,linux/arm64 .
+            --tag wernight/docker-funbox:latest \
+            --platform linux/amd64,linux/arm64,linux/arm/v7 .

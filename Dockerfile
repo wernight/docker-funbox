@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian
 
 MAINTAINER Werner Beroux <werner@beroux.com>
 
@@ -32,13 +32,12 @@ RUN apt-get update \
         vlc \
         watch \
         xaos \
-
-    && echo "Install lolcat and youtube-dl" \
-    && echo "deb http://http.us.debian.org/debian sid main non-free contrib" >> /etc/apt/sources.list \
-    && apt-get update \
-    && DEBIAN_FRONTEND=noninteractive apt-get install -y \
         lolcat \
-        youtube-dl \
+        ffmpeg \
+
+    && echo "Install youtube-dl" \
+    && curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/bin/youtube-dl \
+    && chmod 755 /usr/bin/youtube-dl \
 
     && echo "Install asciiquarium" \
     && cpan -i Term::Animation \
@@ -53,7 +52,7 @@ RUN apt-get update \
     && chmod +x /usr/local/bin/falling-hearts \
 
     && echo "Install pipes" \
-    && curl -L https://gist.githubusercontent.com/livibetter/4689307/raw/949e43fe2962c2c97c8b1d974ff93dd053d9bd37/pipes.sh -o /usr/local/bin/pipes \
+    && curl -L https://raw.githubusercontent.com/pipeseroni/pipes.sh/refs/heads/master/pipes.sh -o /usr/local/bin/pipes \
     && chmod +x /usr/local/bin/pipes \
 
     && echo "Clean-up" \
